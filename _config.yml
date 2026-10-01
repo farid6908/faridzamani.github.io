@@ -21,16 +21,32 @@ repository               : "academicpages/academicpages.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
+# ==========================================
+# Site Settings
+# ==========================================
+title                    : "Dr. Farid Zamani"
+title_separator          : "-"
+name                     : &name "Dr. Farid Zamani Bin Che Rose"
+description              : &description "Senior Lecturer in Statistics & Econometrics at Universiti Putra Malaysia."
+url                      : "https://faridzamani.github.io"
+baseurl                  : ""
+
+# ==========================================
+# Author / Academic Profile Settings
+# ==========================================
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Researcher in Time Series Forecasting"
-  location         : "Earth"
-  employer         : "Universiti Putra Malaysia (UPM)"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "Dr. Farid Zamani Bin Che Rose"
+  avatar           : "bio-photo.jpg"
+  bio              : "Senior Lecturer in Statistics & Econometrics specializing in time series modeling, structural break detection, and statistical machine learning."
+  location         : "Serdang, Selangor, Malaysia"
+  employer         : "Universiti Putra Malaysia"
+  email            : "faridzamani@upm.edu.my"
+  uri              : "https://faridzamani.github.io"
+  github           : "faridzamani"
+  googlescholar    : "" # Add your Google Scholar User ID if available
+  orcid            : "" # Add your ORCID ID (e.g., 0000-000X-XXXX-XXXX)
+  researchgate     : "" # Add your ResearchGate profile handle
+  linkedin         : "" # Add your LinkedIn profile handle
 
   # Academic websites
   academia         : # URL
